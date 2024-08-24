@@ -1,6 +1,7 @@
 # This is a sample Python script.
 from heap.max_heap import MaxHeap
 from heap.min_heap import MinHeap
+from tree.avl_tree import AVLTree
 from tree.tree import BinaryTree
 
 
@@ -74,6 +75,11 @@ if __name__ == '__main__':
     print("Extracted min:", min_heap.extract_min())  # Output: 5
     print("Min value after extraction:", min_heap.get_min())  # Output: 10
 
-
+    avl = AVLTree(100000)  # Create an AVL tree with a memory pool of 1 million nodes
+    values = list(range(10000))
+    avl.parallel_insert(values)
+    print(avl.height())
+    print(avl.is_balanced())
+    print(avl.inorder()[:10])
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
