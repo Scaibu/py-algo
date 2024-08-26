@@ -75,8 +75,21 @@ if __name__ == '__main__':
     print("Extracted min:", min_heap.extract_min())  # Output: 5
     print("Min value after extraction:", min_heap.get_min())  # Output: 10
 
-    avl = AVLTree(100000)  # Create an AVL tree with a memory pool of 1 million nodes
-    values = list(range(10000))
+    bt = BinaryTree()
+    bt.insert(50)
+    bt.insert(51)
+    bt.insert(51)
+    bt.insert(52)
+    bt.insert(53)
+    bt.insert(54)
+    print(bt.inorder_traversal())
+    print(bt.preorder_traversal())
+    print(bt.postorder_traversal())
+    print(bt.level_order_traversal())
+
+
+    avl = AVLTree(100)  # Create an AVL tree with a memory pool of 1 million nodes
+    values = list(range(100))
     avl.parallel_insert(values)
     print(avl.height())
     print(avl.is_balanced())

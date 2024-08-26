@@ -1,0 +1,60 @@
+1. Concatenation
+2. Substrings
+3. Splitting
+4. Joining
+5. Trimming
+6. Replacing
+7. Searching
+8. Length
+9. Uppercasing
+10. Lowercasing
+11. Padding
+12. Reversing
+13. Escaping/Unescaping
+14. Encoding/Decoding
+15. Formatting
+16. Stripping (Whitespace)
+17. Indexing
+18. Slicing
+19. Finding (Index of substring)
+20. Case-Sensitivity Comparison
+21. Case-Insensitive Comparison
+22. Tokenizing
+23. Splitting by Regular Expressions
+24. Trimming by Characters
+25. Inserting
+26. Removing
+27. Converting to/from Lists
+28. Substitution
+29. Normalizing (e.g., for Unicode)
+30. Checking for Prefix/Suffix
+31. String Interpolation
+32. Character Replacement
+33. Detecting Palindromes
+34. Finding All Matches (e.g., Regex)
+35. Extracting Numbers
+36. Finding Unique Words
+37. Generating Hashes
+38. Sanitizing Inputs
+39. Word Wrapping
+40. Splitting into Chunks
+41. Finding Longest/Shortest Substring
+42. Generating Abbreviations
+43. Detecting Anagrams
+44. String Alignment
+45. Finding Substring Occurrences
+46. Removing Duplicates
+47. Converting to CamelCase/SnakeCase
+48. Handling Escape Sequences
+49. Token Frequency Analysis
+50. Text Normalization (e.g., removing diacritics)
+51. Word Count
+52. Count Occurrences of Substring
+53. Handling Special Characters
+54. String Padding with Specific Characters
+55. Case Folding
+56. Stripping Non-Alphanumeric Characters
+57. Extracting Date/Time
+58. Transliteration
+59. Splitting by Delimiters
+60. Generating Random Strings
